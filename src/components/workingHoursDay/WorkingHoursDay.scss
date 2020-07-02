@@ -1,0 +1,75 @@
+@import "../../assets/scss/variables.scss";
+@import "../../assets/scss/mixins.scss";
+
+.working-hours-day {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  min-height: 64px;
+  padding: 8px 0;
+  @include sm {
+    display: block;
+    position: relative;
+  }
+  & .working-hours-day__description {
+    display: flex;
+    min-width: 15.62vw;
+    color: $c_grey_4;
+    @include sm {
+      position: absolute;
+      top: 12px;
+      left: 0;
+    }
+  }
+  & .working-hours-day__content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-bottom: 4px;
+    & .working-hours-day__time-container {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 8px;
+      @include sm {
+        justify-content: flex-end;
+      }
+      & .rc-time-picker-input {
+        width: 48px;
+        font-family: $f_primary;
+        color: $c_grey_1;
+        font-size: 13px;
+        line-height: 19px;
+        padding: 2px 6px;
+        border-radius: 3px;
+        border: 1px solid rgba(155, 155, 155, 0.5);
+        background-color: $c_white;
+        &:focus {
+          outline: none;
+        }
+      }
+      & .working-hours-day__time-separator {
+        padding: 0 4px;
+        color: $c_grey_1;
+      }
+    }
+  }
+}
+
+//@todo вынести переопределение стилей в отдельный фаил
+.rc-time-picker-panel-select {
+  color: $c_grey_1;
+  font-family: $f_primary;
+  font-size: 13px;
+}
+.rc-time-picker-panel-input {
+  color: $c_grey_1;
+  font-family: $f_primary;
+  font-size: 13px;
+}
+
+.rc-time-picker-clear {
+  display: none;
+}

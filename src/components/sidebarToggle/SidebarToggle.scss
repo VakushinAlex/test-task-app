@@ -1,0 +1,12 @@
+@import "../../assets/scss/variables.scss";
+@import "../../assets/scss/mixins.scss";
+
+.sidebar-toggle-btn {
+  @include reset-button;
+  height: 30px;
+  width: 28px;
+  color: $c_grey_1;
+  padding: 4px;
+  border: 1px solid $c_grey_1;
+  border-radius: 2px;
+}

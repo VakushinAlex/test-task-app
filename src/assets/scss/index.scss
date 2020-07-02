@@ -1,0 +1,26 @@
+@import "variables";
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700&display=swap");
+
+* {
+  font-family: $f_primary, sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+}
+
+.menu {
+  background-color: red;
+  width: 200px;
+  position: fixed;
+  height: 100vh;
+}
+
+.content {
+  min-height: 100vh;
+  margin-left: 200px;
+  width: calc(100% - 200px);
+  background-color: green;
+}

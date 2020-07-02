@@ -1,0 +1,62 @@
+@import "variables";
+
+@mixin reset-button {
+  font-size: 100%;
+  font-family: inherit;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  padding: 0;
+}
+
+@mixin bottom-hr {
+  &::after {
+    content: "";
+    position: absolute;
+    width: auto;
+    background-color: $c_grey_2;
+    height: 1px;
+    opacity: 0.22;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+@mixin no-highlight {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+$screen-xs: 320px;
+$screen-sm: 720px;
+$screen-md: 1024px;
+
+@mixin xs {
+  @media (max-width: #{$screen-xs}) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media (max-width: #{$screen-sm}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (max-width: #{$screen-md}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: #{$screen-md}) {
+    @content;
+  }
+}

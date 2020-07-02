@@ -1,0 +1,10 @@
+.empty {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  min-height: 75vh;
+  & div {
+    margin: auto;
+  }
+}
