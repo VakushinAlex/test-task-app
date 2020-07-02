@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/test-task-app/static/css/main.37430e70.chunk.css",
+    "main.js": "/test-task-app/static/js/main.47e9cd34.chunk.js",
+    "main.js.map": "/test-task-app/static/js/main.47e9cd34.chunk.js.map",
+    "runtime-main.js": "/test-task-app/static/js/runtime-main.2b229d83.js",
+    "runtime-main.js.map": "/test-task-app/static/js/runtime-main.2b229d83.js.map",
+    "static/css/2.9da3a440.chunk.css": "/test-task-app/static/css/2.9da3a440.chunk.css",
+    "static/js/2.f86c56ad.chunk.js": "/test-task-app/static/js/2.f86c56ad.chunk.js",
+    "static/js/2.f86c56ad.chunk.js.map": "/test-task-app/static/js/2.f86c56ad.chunk.js.map",
+    "index.html": "/test-task-app/index.html",
+    "precache-manifest.789418c358820793ae6f670f77878d00.js": "/test-task-app/precache-manifest.789418c358820793ae6f670f77878d00.js",
+    "service-worker.js": "/test-task-app/service-worker.js",
+    "static/css/2.9da3a440.chunk.css.map": "/test-task-app/static/css/2.9da3a440.chunk.css.map",
+    "static/css/main.37430e70.chunk.css.map": "/test-task-app/static/css/main.37430e70.chunk.css.map",
+    "static/js/2.f86c56ad.chunk.js.LICENSE.txt": "/test-task-app/static/js/2.f86c56ad.chunk.js.LICENSE.txt",
+    "static/media/angle-left-solid.e3c3af7f.svg": "/test-task-app/static/media/angle-left-solid.e3c3af7f.svg",
+    "static/media/bars-solid.4c47b68e.svg": "/test-task-app/static/media/bars-solid.4c47b68e.svg",
+    "static/media/Checkbox.scss": "/test-task-app/static/media/check-solid.6ee0b54d.svg",
+    "static/media/icons8-business_contact.1866855a.svg": "/test-task-app/static/media/icons8-business_contact.1866855a.svg",
+    "static/media/icons8-calendar.f73666c5.svg": "/test-task-app/static/media/icons8-calendar.f73666c5.svg",
+    "static/media/icons8-collaboration.85905402.svg": "/test-task-app/static/media/icons8-collaboration.85905402.svg",
+    "static/media/icons8-dashboard.d4f774be.svg": "/test-task-app/static/media/icons8-dashboard.d4f774be.svg",
+    "static/media/icons8-inbox.354c4b57.svg": "/test-task-app/static/media/icons8-inbox.354c4b57.svg",
+    "static/media/icons8-live_folder.7fadb9bf.svg": "/test-task-app/static/media/icons8-live_folder.7fadb9bf.svg",
+    "static/media/icons8-number_pad.370c239f.svg": "/test-task-app/static/media/icons8-number_pad.370c239f.svg",
+    "static/media/icons8-todo_list.cc7b93be.svg": "/test-task-app/static/media/icons8-todo_list.cc7b93be.svg",
+    "static/media/icons8-user_group_man_man.f3594b41.svg": "/test-task-app/static/media/icons8-user_group_man_man.f3594b41.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2b229d83.js",
+    "static/css/2.9da3a440.chunk.css",
+    "static/js/2.f86c56ad.chunk.js",
+    "static/css/main.37430e70.chunk.css",
+    "static/js/main.47e9cd34.chunk.js"
+  ]
+}
